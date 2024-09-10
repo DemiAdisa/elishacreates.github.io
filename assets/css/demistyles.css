@@ -1,0 +1,16 @@
+/* Demi Added These */
+.portfolio-tab {
+    font-family: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #a2a5ab;
+    display: flex;
+    
+    margin: 5px;
+  
+  }
+  
+  .plain-link {
+    text-decoration: none;
+    border: 0 !important ;
+  }
