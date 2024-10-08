@@ -18,3 +18,15 @@
   display: flex;
   height: 60%;
 }
+
+.custom-box {
+  padding: 20px;
+  background-color: rgb(24, 23, 23);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #525050;
+
+  &:hover {
+    background-color: #b11f24;
+
+  }
+}
