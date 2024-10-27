@@ -189,15 +189,20 @@ body.is-preload *:after {
   transition: none !important;
 }
 
-body,
-input,
-select,
-textarea {
+body {
   color: #fff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
   line-height: 1.75em;
+}
+
+input, textarea, select {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: 400;
+  line-height: 1.75em;
+  color: #000 !important;
 }
 
 a {
@@ -1935,7 +1940,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #49bf9d;
+  border-color: #b11f24;
 }
 
 select {
@@ -1949,7 +1954,7 @@ select {
 }
 
 select option {
-  color: #787878;
+  color: #000000;
   background: #fff;
 }
 

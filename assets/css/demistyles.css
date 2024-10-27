@@ -52,3 +52,12 @@
   max-height: 100%; /* Image will scale down to fit the container height */
   object-fit: contain; /* Ensures the entire image fits within the container */
 }
+
+.swiper-button-next, .swiper-button-prev {
+  color: #fff !important;
+}
+
+::placeholder {
+  color: #000 !important;
+  opacity: 1; /* Firefox */
+}
