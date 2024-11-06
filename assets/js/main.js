@@ -127,3 +127,19 @@ var swiper = new Swiper(".portfolioSwiper", {
     clickable: true,
   },
 });
+
+//Create smooth transition for anchor tags
+document.querySelectorAll('.nav-item').forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const targetId = this.getAttribute("href");
+      const targetElement = document.querySelector(targetId);
+      const offset = document.querySelector(".sticky-navbar").offsetHeight; // Gets navbar height
+
+      window.scrollTo({
+          top: targetElement.offsetTop - offset,
+          behavior: "smooth"
+      });
+  });
+});

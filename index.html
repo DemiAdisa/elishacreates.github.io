@@ -27,10 +27,11 @@
           alt="Elisha Baptiste" /></a>
 
       <h1 class="">
-        <strong>I am Elisha</strong>
+        I am
+        <strong class="color-red">Elisha</strong>
       </h1>
 
-      <h1 class="">
+      <h1 class="color-red">
         Multimedia Producer, <br />
         Marketing Specialist, <br />
         Stage Manager<br />
@@ -40,14 +41,59 @@
 
   <!-- Main -->
   <div id="main">
-    <!-- One -->
-    <section id="one">
+
+    <nav class="sticky-navbar">
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="d-flex flex-column justify-content-center h-100">
+            <div class="logo-container">
+              <img src="images/logos/Elisha-Creates-Logo-Final-Youtube-Transp-BG.png" alt="" class="img-fluid">
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-9">
+
+          <ul class="nav-links">
+
+            <li>
+              <a class="nav-item" href="#About-Me">
+                ABOUT
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-item" href="#portfolio-section">
+                PORTFOLIO
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-item" href="#Contact-Form">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </nav>
+
+    <!-- ABout Me Section -->
+    <section id="About-Me">
       <div class="custom-box">
         <header class="major">
           <h2>About Me</h2>
         </header>
         <p>
-          Hi! I'm Elisha, a seasoned multimedia production, marketing
+          Hi!
+          <br><br>
+
+          I'm Elisha, a seasoned multimedia production, marketing
           strategy, and stage management professional, based in Charlottetown.
           My career spans the dynamic worlds of film, live news broadcasts,
           television and digital series, and exhilarating live events spanning
@@ -74,6 +120,7 @@
       </div>
     </section>
 
+    <!-- Portfolio Section -->
     <section id="portfolio-section">
       <h2>Portfolio</h2>
 
@@ -389,57 +436,74 @@
         to amplify our mission and connect with our audience.
       </p>
 
-      <p>
-        <strong> Key Responsibilities:</strong>
-      </p>
+      <div class="row">
 
-      <ul>
-        <li>
-          Marketing Strategy: Developing and implementing marketing strategies
-          to enhance brand visibility and engagement.
-        </li>
+        <div class="col-md-6">
+          <div class="text-center">
+            <h4 class="color-red">
+              Key Responsibilities
+            </h4>
+          </div>
 
-        <li>
-          Social Media Management: Oversee social media content creation,
-          scheduling, and community engagement across platforms.
-        </li>
+          <ul>
+            <li>
+              <strong class="color-red">Marketing Strategy: </strong> Developing and implementing marketing strategies
+              to enhance brand visibility and engagement.
+            </li>
 
-        <li>
-          Video Production: Record and edit videos for social media, capturing
-          the essence of our initiatives and events.
-        </li>
-      </ul>
+            <li>
+              <strong class="color-red">Social Media Management: </strong> Oversee social media content creation,
+              scheduling, and community engagement across platforms.
+            </li>
 
-      <p>
-        <strong>Achievements:</strong>
-      </p>
+            <li>
+              <strong class="color-red">Video Production:</strong> Record and edit videos for social media, capturing
+              the essence of our initiatives and events.
+            </li>
+          </ul>
 
-      <ul>
-        <li>
-          Successfully increased social media engagement by [X]% within
-          [timeframe].
-        </li>
+        </div>
 
-        <li>
-          Boosted follower growth by [X]% on Instagram through targeted
-          content strategies.
-        </li>
 
-        <li>
-          Produced a series of impactful videos that garnered over 4,000 views
-          and [Y] shares.
-        </li>
-      </ul>
+        <div class="col-md-6">
+
+          <div class="text-center">
+            <h4 class="color-red">
+              Achievements
+            </h4>
+          </div>
+
+          <ul>
+            <li>
+              Successfully increased social media engagement by <strong class="color-red">[X]%</strong> within
+              <strong class="color-red">[timeframe]</strong>.
+            </li>
+
+            <li>
+              Boosted follower growth by <strong class="color-red">[X]%</strong> on Instagram through targeted
+              content strategies.
+            </li>
+
+            <li>
+              Produced a series of impactful videos that garnered over <strong class="color-red">4,000 </strong>views
+              and <strong class="color-red">[Y]</strong> shares.
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
 
       <p>
         Explore my work on
-        <a href="https://www.instagram.com/asdacanada/" target="_blank" rel="noopener noreferrer">ASDA’s Instagram
+        <a class="plain-link" href="https://www.instagram.com/asdacanada/" target="_blank"
+          rel="noopener noreferrer">WorkSource Alliance Instagram
           page</a>.
       </p>
     </section>
 
     <!-- Form -->
-    <section id="Cotnact-Form">
+    <section id="Contact-Form">
       <h2>Get In Touch</h2>
 
       <p>
@@ -453,7 +517,7 @@
           <form method="post" action="https://api.web3forms.com/submit">
             <input type="hidden" name="access_key" value="56a779ff-dc30-4033-8612-4aa9b74a1884" />
             <div class="row gtr-uniform gtr-50">
-              
+
               <div class="col-6 col-12-xsmall">
                 <input type="text" name="name" id="name" placeholder="Name" />
               </div>
@@ -485,7 +549,11 @@
         </div>
 
         <div class="col-4">
-          <img src="images/logos/Elisha-Creates-Logo-Final.png" alt="" class="img-fluid">
+          <div>
+            <img src="images/logos/Elisha-Creates-Logo-Final.png" alt="Elsiha Creates Logo" class="img-fluid">
+
+          </div>
+
         </div>
       </div>
     </section>

@@ -11,7 +11,14 @@
 
 .plain-link {
   text-decoration: none;
-  border: 0 !important ;
+  border: 0 !important;
+  color: #b11f24;
+  transition: text-decoration 0.2s ease-in-out;
+
+  &:hover {
+    color: #b11f24;
+    text-decoration: underline;
+  }
 }
 
 .max-height-200 {
@@ -53,6 +60,15 @@
   object-fit: contain; /* Ensures the entire image fits within the container */
 }
 
+
+.logo-container {
+
+  display: flex;
+  /* max-width: 75%; */
+  padding-top: 5px;
+}
+
+
 .swiper-button-next, .swiper-button-prev {
   color: #fff !important;
 }
@@ -60,4 +76,52 @@
 ::placeholder {
   color: #000 !important;
   opacity: 1; /* Firefox */
+}
+
+
+.color-red{
+  color: #b11f24;
+}
+
+.sticky-navbar {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #525050;
+  position: sticky;
+  top: 20px;
+  z-index: 99;
+
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+
+  list-style: none;
+
+  margin: 0;
+  padding: 20px;
+
+  li {
+    padding: 0;
+  }
+}
+
+.nav-item {
+  font-weight: bolder;
+  text-decoration: none !important;
+  color: #b11f24;
+
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: transparent;
+  transition: border 0.3s ease-in-out;;
+
+  &:hover {
+    color: #b11f24 !important;
+    border: 1px solid #b11f24;
+
+  }
 }
