@@ -191,14 +191,14 @@ body.is-preload *:after {
 
 body {
   color: #fff;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Questrial", sans-serif;
   font-size: 16pt;
   font-weight: 400;
   line-height: 1.75em;
 }
 
 input, textarea, select {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Questrial", sans-serif;
   font-size: 16pt;
   font-weight: 400;
   line-height: 1.75em;
@@ -246,6 +246,7 @@ h6 {
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
+  font-family: "Questrial", sans-serif;
 }
 
 h1 a,
@@ -256,6 +257,7 @@ h5 a,
 h6 a {
   color: inherit;
   text-decoration: none;
+  font-family: "Questrial", sans-serif;
 }
 
 h1 {
@@ -321,7 +323,7 @@ code {
   background: #f7f7f7;
   border-radius: 0.35em;
   border: solid 2px #efefef;
-  font-family: "Courier New", monospace;
+  font-family: "Questrial", sans-serif;
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
@@ -329,7 +331,7 @@ code {
 
 pre {
   -webkit-overflow-scrolling: touch;
-  font-family: "Courier New", monospace;
+  font-family: "Questrial", sans-serif;
   font-size: 0.9em;
   margin: 0 0 2em 0;
 }
@@ -2014,7 +2016,7 @@ input[type="radio"] + label:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Questrial", sans-serif;
   font-weight: 900;
 }
 
@@ -2114,7 +2116,7 @@ input[type="radio"] + label:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Questrial", sans-serif;
   font-weight: 400;
 }
 
@@ -2131,7 +2133,7 @@ input[type="radio"] + label:before {
 }
 
 .icon.brands:before {
-  font-family: "Font Awesome 5 Brands";
+  font-family: "Questrial", sans-serif;
 }
 
 /* Image */
@@ -2655,7 +2657,7 @@ input[type="button"]:disabled,
   cursor: default;
 }
 
-/* Work Item */
+/* Work Item */ 
 
 /* .work-item {
   margin: 0 0 2em 0;
@@ -2666,11 +2668,13 @@ input[type="button"]:disabled,
 }
 
 .work-item h3 {
+  font-family: "Questrial", sans-serif;
   font-size: 1em;
   margin: 0 0 0.5em 0;
 }
 
 .work-item p, .work-item ul {
+  font-family: "Questrial", sans-serif;
   font-size: 0.8em;
   line-height: 1.5em;
   margin: 0;
@@ -2743,6 +2747,7 @@ input[type="button"]:disabled,
 }
 
 .headerClass h1 {
+  font-family: "Questrial", sans-serif;
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.35em;
   line-height: 1.75em;
@@ -2915,7 +2920,7 @@ input[type="button"]:disabled,
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Questrial", sans-serif;
   font-weight: 900;
 }
 
@@ -2964,7 +2969,7 @@ input[type="button"]:disabled,
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Questrial", sans-serif;
   font-weight: 900;
 }
 
@@ -3027,7 +3032,7 @@ input[type="button"]:disabled,
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  font-family: "Font Awesome 5 Free";
+  font-family: "Questrial", sans-serif;
   font-weight: 900;
 }
 
