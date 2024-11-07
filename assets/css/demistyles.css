@@ -44,6 +44,25 @@
   }
 }
 
+.custom-box-text {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  color: #fff;
+  background-color: rgb(24, 23, 23);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #525050;
+  height: 100%; 
+
+  &:hover {
+    background-color: #b11f24;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
+
+  }
+}
+
 .custom-box-link {
   text-decoration: none;
   color: #fff !important;
