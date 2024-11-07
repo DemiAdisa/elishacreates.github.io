@@ -44,6 +44,28 @@
   }
 }
 
+.custom-box-link {
+  text-decoration: none;
+  color: #fff !important;
+  padding: 20px;
+  background-color: rgb(24, 23, 23);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #525050;
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+
+  &:hover {
+    background-color: #b11f24;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
+    color: #fff !important;
+
+  }
+}
+
+
 .img-container {
   width: 100%; /* Adjust width as needed */
   max-width: 600px; /* Set a max width for the container */

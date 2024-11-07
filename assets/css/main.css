@@ -2657,9 +2657,9 @@ input[type="button"]:disabled,
 
 /* Work Item */
 
-.work-item {
+/* .work-item {
   margin: 0 0 2em 0;
-}
+} */
 
 .work-item .image {
   margin: 0 0 1.5em 0;
@@ -2670,7 +2670,7 @@ input[type="button"]:disabled,
   margin: 0 0 0.5em 0;
 }
 
-.work-item p {
+.work-item p, .work-item ul {
   font-size: 0.8em;
   line-height: 1.5em;
   margin: 0;

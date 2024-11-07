@@ -128,6 +128,16 @@ var swiper = new Swiper(".portfolioSwiper", {
   },
 });
 
+var swiper = new Swiper(".img-slide", {
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
+    },
+  },
+});
+
 //Create smooth transition for anchor tags
 document.querySelectorAll('.nav-item').forEach(anchor => {
   anchor.addEventListener("click", function (e) {
