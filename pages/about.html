@@ -23,6 +23,10 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap"
     rel="stylesheet">
 
+
+  <!-- Lightbox for images -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.5/dist/css/lightbox.min.css">
+
 </head>
 
 <body class="is-preload">
@@ -123,25 +127,40 @@
 
         <div class="col-md-6">
 
-          <img src="../images/thumbs/PressImages/ElishaJamaicaObserver.jpg" alt="Elisha in the JamaicaObserver"
-            class="img-fluid">
+          <a class="plain-link" href="../images/thumbs/PressImages/ElishaJamaicaObserver.jpg"
+            data-alt="Elisha in the Jamaica Observer" data-lightbox="PressPics"
+            data-title="Elisha in the Jamaica Observer">
+            <img src="../images/thumbs/PressImages/ElishaJamaicaObserver.jpg" alt="Elisha in the Jamaica Observer"
+              class="img-fluid">
+          </a>
 
         </div>
 
         <div class="col-md-6">
-          <img src="../images/thumbs/PressImages/ElishaNewsdayWMN-01.jpg" alt="Elisha in the WMN Magazine"
-            class="img-fluid">
+
+          <a class="plain-link" href="../images/thumbs/PressImages/ElishaNewsdayWMN-01.jpg"
+            data-alt="Elisha in the WMN Magazine" data-lightbox="PressPics" data-title="Elisha in the WMN Magazine">
+            <img src="../images/thumbs/PressImages/ElishaNewsdayWMN-01.jpg" alt="Elisha in the WMN Magazine"
+              class="img-fluid">
+          </a>
 
         </div>
 
         <div class="col-md-6">
-          <img src="../images/thumbs/PressImages/ElishaNewsdayWMNCover.jpg" alt="Elisha on the Cover of WMN Magazine"
-            class="img-fluid">
+
+          <a href="../images/thumbs/PressImages/ElishaNewsdayWMNCover.jpg" class="plain-link"
+            data-alt="Elisha in the WMN Magazine" data-lightbox="PressPics" data-title="Elisha in the WMN Magazine">
+            <img src="../images/thumbs/PressImages/ElishaNewsdayWMNCover.jpg" alt="Elisha on the Cover of WMN Magazine"
+              class="img-fluid">
+          </a>
         </div>
 
         <div class="col-md-6">
-          <img src="../images/thumbs/PressImages/ElishaNewsdayWMN-02.jpg" alt="Elisha in the WMN Magazine"
-            class="img-fluid">
+
+          <a href="../images/thumbs/PressImages/ElishaNewsdayWMN-02.jpg" class="plain-link"
+            data-alt="Elisha in the WMN Magazine" data-lightbox="PressPics" data-title="My caption">
+            <img src="../images/thumbs/PressImages/ElishaNewsdayWMN-02.jpg" class="img-fluid" alt="Elisha in the WMN Magazine">
+          </a>
         </div>
 
       </div>
@@ -151,7 +170,7 @@
       <a class="d-block text-center plain-link" href="../index.html">
         <img src="../images/logos/Elisha-Creates-Logo-Final.png" alt="Floating Button Icon" class="fab-image">
 
-      </a>   
+      </a>
     </div>
 
   </div>
@@ -195,6 +214,9 @@
   <script src="assets/js/breakpoints.min.js"></script>
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <!-- Lightbox -->
+  <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.5/dist/js/lightbox.min.js"></script>
 </body>
 
 </html>
