@@ -119,6 +119,17 @@ var swiper = new Swiper(".liveSwiper", {
       },
 });
 
+var swiper = new Swiper(".pressSwiper", {
+  
+  effect: "cards",
+  grabCursor: true,
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
 var swiper = new Swiper(".portfolioSwiper", {
   slidesPerView: 2,
   spaceBetween: 30,
