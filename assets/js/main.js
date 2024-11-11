@@ -109,18 +109,6 @@
 
 // Demi Added These
 var swiper = new Swiper(".liveSwiper", {
-  
-      effect: "cards",
-      grabCursor: true,
-
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-});
-
-var swiper = new Swiper(".pressSwiper", {
-  
   effect: "cards",
   grabCursor: true,
 
@@ -130,16 +118,28 @@ var swiper = new Swiper(".pressSwiper", {
   },
 });
 
-var swiper = new Swiper(".portfolioSwiper", {
-  slidesPerView: 2,
+var swiperII = new Swiper(".magSwiper", {
+  slidesPerView: 4,
+  centeredSlides: true,
   spaceBetween: 30,
+  grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
+
 });
 
-var swiper = new Swiper(".img-slide", {
+// var swiperIV = new Swiper(".portfolioSwiper", {
+//   slidesPerView: 2,
+//   spaceBetween: 30,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
+
+var swiperV = new Swiper(".img-slide", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -150,17 +150,17 @@ var swiper = new Swiper(".img-slide", {
 });
 
 //Create smooth transition for anchor tags
-document.querySelectorAll('.nav-item').forEach(anchor => {
+document.querySelectorAll(".nav-item").forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
-      e.preventDefault();
+    e.preventDefault();
 
-      const targetId = this.getAttribute("href");
-      const targetElement = document.querySelector(targetId);
-      const offset = document.querySelector(".sticky-navbar").offsetHeight; // Gets navbar height
+    const targetId = this.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+    const offset = document.querySelector(".sticky-navbar").offsetHeight; // Gets navbar height
 
-      window.scrollTo({
-          top: targetElement.offsetTop - offset,
-          behavior: "smooth"
-      });
+    window.scrollTo({
+      top: targetElement.offsetTop - offset,
+      behavior: "smooth",
+    });
   });
 });
