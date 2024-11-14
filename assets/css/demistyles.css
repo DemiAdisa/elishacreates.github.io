@@ -201,3 +201,15 @@
   width: 70%; /* Adjust size as needed */
   height: auto;
 }
+
+.uppercaseText {
+  text-transform: uppercase;
+}
+
+.custom-hover {
+  transition: transform 0.3s ease; /* Smooth transition */
+  
+  &:hover {
+    transform: scale(1.05); /* Scales up by 5% */
+  }
+}
