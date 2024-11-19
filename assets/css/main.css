@@ -217,7 +217,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #49bf9d !important;
+  color: #b11f24 !important;
   text-decoration: none;
 }
 
@@ -2569,8 +2569,8 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #b11f24;
+  color: #b11f24 !important;
 }
 
 input[type="submit"]:active,
@@ -3202,11 +3202,11 @@ body.is-touch .poptrox-popup .closer {
 
   .footerClass {
     background-attachment: scroll;
-    background-color: #1f1815;
-    background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+    background-color: #000000;
+    /* background-image: url("images/overlay.png"), url("../../images/bg.jpg");
     background-position: top left, bottom center;
     background-repeat: repeat, no-repeat;
-    background-size: auto, cover;
+    background-size: auto, cover; */
     bottom: auto;
     left: auto;
     padding: 4em 4em 6em 4em;
