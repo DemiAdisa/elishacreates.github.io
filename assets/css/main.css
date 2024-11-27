@@ -173,7 +173,7 @@ html {
 }
 
 body {
-  background: #000000;
+  background: #121212;
 }
 
 body.is-preload *,
@@ -3203,11 +3203,7 @@ body.is-touch .poptrox-popup .closer {
 
   .footerClass {
     background-attachment: scroll;
-    background-color: #000000;
-    /* background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-    background-position: top left, bottom center;
-    background-repeat: repeat, no-repeat;
-    background-size: auto, cover; */
+    background-color: #121212;
     bottom: auto;
     left: auto;
     padding: 4em 4em 6em 4em;

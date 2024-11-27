@@ -130,15 +130,6 @@ var swiperII = new Swiper(".magSwiper", {
 
 });
 
-// var swiperIV = new Swiper(".portfolioSwiper", {
-//   slidesPerView: 2,
-//   spaceBetween: 30,
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
-
 var swiperV = new Swiper(".img-slide", {
   pagination: {
     el: ".swiper-pagination",

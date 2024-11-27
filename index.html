@@ -52,6 +52,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body class="is-preload">
@@ -64,16 +68,6 @@
             alt="Elisha Baptiste"
           />
         </a>
-
-        <div class="d-none">
-          <h1 class="">I am <strong class="color-red">Elisha</strong></h1>
-
-          <h1 class="color-red">
-            Multimedia Producer, <br />
-            Marketing Specialist, <br />
-            Stage Manager<br />
-          </h1>
-        </div>
       </div>
     </header>
 
@@ -97,7 +91,7 @@
             <div class="col-md-9">
               <ul class="nav-links">
                 <li>
-                  <a class="nav-item" href="#About-Me"> ABOUT </a>
+                  <a class="nav-item" href="pages/about.html"> ABOUT </a>
                 </li>
 
                 <li>
@@ -115,26 +109,35 @@
 
       <!-- About Me Section -->
       <section id="About-Me">
-        <h2>ABOUT ME</h2>
+        <h2 class="unique-heading">ABOUT ME</h2>
 
-        <div class="row">
+        <div class="row pb-3">
           <div class="col-auto">
-            <h3>
-              <strong class="custom-box-text">Multimedia Producer</strong>
-            </h3>
+            <div class="h-100 d-flex justify-content-center flex-column">
+              <h4 class="m-0 uppercaseText">Multimedia Producer</h4>
+            </div>
           </div>
 
           <div class="col-auto">
-            <h3>
-              <strong class="custom-box-text">Marketing Specialist</strong>
-            </h3>
+            <h3 class="d-none d-sm-block unique-line color-red">|</h3>
           </div>
 
           <div class="col-auto">
-            <h3><strong class="custom-box-text">Stage Manager</strong></h3>
+            <div class="h-100 d-flex justify-content-center flex-column">
+              <h4 class="m-0 uppercaseText">Marketing Specialist</h4>
+            </div>
+          </div>
+
+          <div class="col-auto">
+            <h3 class="d-none d-sm-block unique-line color-red">|</h3>
+          </div>
+
+          <div class="col-auto">
+            <div class="h-100 d-flex justify-content-center flex-column">
+              <h4 class="m-0 uppercaseText">Stage Manager</h4>
+            </div>
           </div>
         </div>
-        <h3></h3>
 
         <a href="pages/about.html" class="custom-box-link">
           <p>
@@ -168,7 +171,7 @@
 
       <!-- Portfolio Section -->
       <section id="portfolio-section">
-        <h2>PORTFOLIO</h2>
+        <h2 class="unique-heading">PORTFOLIO</h2>
 
         <h3>
           Are you looking for a Producer or a Production Manager? Here’s some
@@ -461,18 +464,26 @@
 
       <!-- Form -->
       <section id="Contact-Form">
-        <h2 class="uppercaseText">Get In Touch</h2>
-
-        <p>
-          Have a question or just want to say hello? Reach out to me! I am here
-          to help and would love to hear from you. Fill out the form below, and
-          I will get back to you as soon as I can.
-        </p>
-
         <div class="container-fluid">
+          <h2 class="unique-heading">Get In Touch</h2>
+
+          <p>
+            Have a question or just want to say hello? Reach out to me! I am
+            here to help and would love to hear from you. Fill out the form
+            below, and I will get back to you as soon as I can.
+          </p>
+
           <div class="row">
             <div class="col-8 col-12-small">
               <form method="post" action="https://api.web3forms.com/submit">
+      
+                <!-- Custom URL -->
+                <input
+                  type="hidden"
+                  name="redirect"
+                  value="https://yourwebsite.com/thanks.html"
+                />
+
                 <input
                   type="hidden"
                   name="access_key"
@@ -538,29 +549,68 @@
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-auto">
+              <a
+                href="https://www.linkedin.com/in/elishabaptiste/"
+                class="social-media-icon-link d-block"
+              >
+                <i style="font-size: 35px" class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+
+            <div class="col-auto">
+              <a
+                href="https://www.instagram.com/elisha.creates/"
+                class="social-media-icon-link d-block"
+              >
+                <i style="font-size: 35px" class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <p class="m-1">&copy; Elisha Creates</p>
+            <p class="m-1">
+              Design & Development:
+              <a class="plain-link" href="https://demiadisa.github.io/"
+                >Demi Adisa</a
+              >
+            </p>
+          </div>
         </div>
       </section>
     </div>
 
     <!-- Footer -->
     <footer class="footerClass">
-      <div class="inner">
+      <div class="d-none inner">
         <ul class="icons p-2">
           <li>
-            <a href="https://www.linkedin.com/in/elishabaptiste/" class="icon brands">
-              <i style="font-size: 35px;" class="fa-brands fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/elishabaptiste/"
+              class="icon brands"
+            >
+              <i style="font-size: 35px" class="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/elisha.creates/" class="icon brands">
-              <i style="font-size: 35px;" class="fa-brands fa-instagram"></i>
+            <a
+              href="https://www.instagram.com/elisha.creates/"
+              class="icon brands"
+            >
+              <i style="font-size: 35px" class="fa-brands fa-instagram"></i>
             </a>
           </li>
         </ul>
 
         <ul class="copyright">
           <li>&copy; Elisha Creates</li>
-          <li>Design & Development: <a href="https://demiadisa.github.io/">Demi Adisa</a></li>
+          <li>
+            Design & Development:
+            <a href="https://demiadisa.github.io/">Demi Adisa</a>
+          </li>
         </ul>
       </div>
     </footer>
