@@ -90,17 +90,41 @@
   box-shadow: 5px 5px 5px #525050;
   display: flex;
   flex-direction: column;
-  height: 100%; 
-
-  &:hover {
-    background-color: #b11f24;
-    -webkit-transition: background-color 500ms ease-in-out;
-    -ms-transition: background-color 500ms ease-in-out;
-    transition: background-color 500ms ease-in-out;
-    color: #fff !important;
-
-  }
+  height: 100%;
+  transition: background-color 500ms ease-in-out;
 }
+
+.custom-box-link:hover {
+  background-color: #b11f24;
+  color: #fff !important;
+}
+
+.custom-box-link .custom-btn-1 {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #b11f24;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  box-shadow: 2px 2px 5px #525050;
+  border: 1px solid transparent; /* Reserve space for border */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+  
+}
+
+.custom-box-link:hover .custom-btn-1 {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: #b11f24;
+  color: #fff;
+  box-shadow: 2px 2px 5px #525050;
+  border: #fff solid 1px;
+}
+
 
 
 .img-container {
@@ -126,6 +150,21 @@
   /* max-width: 75%; */
   padding-top: 5px;
 }
+
+@media (max-width: 700px) {
+  .logo-container {
+    width: 70%;         /* Adjust width as needed */
+    align-items: center;     /* Center them horizontally */
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-container {
+    width: 50%;         /* Adjust width as needed */
+    align-items: center;     /* Center them horizontally */
+  }
+}
+
 
 
 .swiper-button-next, .swiper-button-prev {
@@ -248,12 +287,31 @@
 
 }
 
+.unique-heading-1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0px;
+
+}
+
 .unique-heading-2 {
   font-family: "Noto Sans", sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   color: #fff;
   font-size: 18px;
+  font-style: italic;
+
+}
+
+.unique-heading-sub {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  color: #fff;
+  font-size: 14px;
   font-style: italic;
 
 }
