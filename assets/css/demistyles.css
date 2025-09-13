@@ -1,4 +1,8 @@
 /* Demi Added These */
+body {
+  overflow-x: hidden;
+}
+
 .portfolio-tab {
   font-size: 14px;
   padding: 5px;
@@ -99,8 +103,8 @@
   color: #fff !important;
 }
 
-.custom-box-link .custom-btn-1 {
-  padding: 10px 20px;
+.custom-btn-1 {
+  padding: 15px;
   background-color: #fff;
   color: #b11f24;
   font-weight: 900;
@@ -117,13 +121,35 @@
   
 }
 
-.custom-box-link:hover .custom-btn-1 {
-  transition: background-color 0.3s ease, color 0.3s ease;
+.custom-btn-1:hover {
   background-color: #b11f24;
   color: #fff;
   box-shadow: 2px 2px 5px #525050;
   border: #fff solid 1px;
 }
+
+.custom-btn-2 {
+  padding: 15px;
+  background-color: #b11f24;         /* Inverted background */
+  color: #fff;                       /* White text */
+  font-weight: 700;                  /* Slightly lighter weight */
+  text-transform: uppercase;
+  border: 1px solid #fff;            /* Visible border from the start */
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  box-shadow: 1px 1px 4px #3a3a3a;   /* Slightly softer shadow */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-btn-2:hover {
+  background-color: #fff;            /* Invert on hover */
+  color: #b11f24;
+  border-color: #b11f24;
+  box-shadow: 2px 2px 6px #3a3a3a;   /* Slightly deeper shadow on hover */
+}
+
 
 
 
@@ -314,7 +340,7 @@
   text-transform: none;
   color: #fff;
   font-size: 14px;
-  font-style: italic;
+  font-weight: bold;
 
 }
 
@@ -328,4 +354,41 @@
   font-size: 30px;
   font-weight: 900;
   margin: 0;
+}
+
+.hero-container {
+  align-items: center;
+}
+
+.hero-heading {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 80px;
+  margin: 0px;
+  text-align: center;
+
+}
+
+.hero-sub-heading {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  margin: 0px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .hero-heading {
+    font-size: 60px;   /* Center them horizontally */
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-heading {
+    font-size: 40px;   /* Center them horizontally */
+  }
 }

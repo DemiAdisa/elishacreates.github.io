@@ -217,7 +217,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #b11f24 !important;
+  color: #b11f24;
   text-decoration: none;
 }
 

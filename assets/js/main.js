@@ -155,3 +155,18 @@ document.querySelectorAll(".nav-item").forEach((anchor) => {
     });
   });
 });
+
+document.querySelectorAll(".cta-btn").forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const targetId = this.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+    const offset = document.querySelector(".sticky-navbar").offsetHeight; // Gets navbar height
+
+    window.scrollTo({
+      top: targetElement.offsetTop - offset,
+      behavior: "smooth",
+    });
+  });
+});
