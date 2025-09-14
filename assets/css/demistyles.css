@@ -150,6 +150,45 @@ body {
   box-shadow: 2px 2px 6px #3a3a3a;   /* Slightly deeper shadow on hover */
 }
 
+.filter-btn {
+  padding: 5px;
+  background-color: #fff;
+  color: #b11f24;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  box-shadow: 2px 2px 5px #525050;
+  border: 1px solid transparent; /* Reserve space for border */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+
+}
+
+.filter-btn:hover {
+  background-color: #b11f24;
+  color: #fff;
+  box-shadow: 2px 2px 5px #525050;
+  border: #fff solid 1px;
+}
+
+.filter-btn.active {
+  background-color: #b11f24;
+  color: #fff;
+}
+
+/* .filter-item {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.filter-item.hidden {
+  opacity: 0;
+} */
+
+
 
 
 
