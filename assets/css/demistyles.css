@@ -188,6 +188,19 @@ body {
   opacity: 0;
 } */
 
+.services-title {
+  font-weight: bold;
+
+}
+
+.services-desc-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
 .img-container {
   width: 100%; /* Adjust width as needed */
   max-width: 600px; /* Set a max width for the container */
