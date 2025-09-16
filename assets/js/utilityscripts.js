@@ -1,17 +1,12 @@
-const filterButtons = document.querySelectorAll('.filter-btn');
-  const items = document.querySelectorAll('.filter-item');
+//Images Lazy Loading
+document.addEventListener("DOMContentLoaded", () => {
+  const images = document.querySelectorAll("img");
 
-  filterButtons.forEach(button => {
-  button.addEventListener('click', e => {
-    e.preventDefault();
-    const filter = button.getAttribute('data-filter');
-
-    filterButtons.forEach(btn => btn.classList.remove('active'));
-    button.classList.add('active');
-
-    items.forEach(item => {
-      const category = item.getAttribute('data-category');
-      item.style.display = (filter === 'All' || category === filter) ? 'block' : 'none';
-    });
+  images.forEach(img => {
+    // Only add if not already set
+    if (!img.hasAttribute("loading")) {
+      img.setAttribute("loading", "lazy");
+    }
   });
 });
+
